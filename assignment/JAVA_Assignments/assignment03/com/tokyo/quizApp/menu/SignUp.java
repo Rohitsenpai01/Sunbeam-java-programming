@@ -1,21 +1,17 @@
 package com.tokyo.quizApp.menu;
+import java.util.*;
 
-import java.util.Scanner;
-
-public class SignUp {
-	static String name;
-	static String email;
-	static String pass;
-	static int age;
-	public static void Signup(Scanner sc) {
-		System.out.print("Enter your name : ");
-		name = sc.next();
-		System.out.print("Enter your email : ");
-		email = sc.next();
-		System.out.print("Enter your Password : ");
-		pass = sc.next();
-		System.out.print("Enter your age : ");
-		age = sc.nextInt();
+public class SignUP {
+	public static void signUpMenu(Scanner sc) {
+		System.out.println("\nStudent Registration");
+		System.out.println("Enter name : ");
+		String name = sc.next();
+		System.out.println("Enter Email : ");
+		String email = sc.next();
+		System.out.println("Enter Password :");
+		String password = sc.next();
+		
+		System.out.println("\nRegistration Succesfull");
+		System.out.println("\nWelcome" + name + "\n");
 	}
-	
 }

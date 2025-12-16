@@ -1,12 +1,11 @@
 package com.tokyo.quizApp.main;
+import java.util.*;
 
-import java.util.Scanner;
-
-import com.tokyo.quizApp.menu.*;
+import com.tokyo.quizApp.menu.MainMenu;
 
 public class QuizMain {
-	public static void main(String [] Args) {
+	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
-		MainMenu.mainmenu(sc);
+		MainMenu.mainMenu(sc);
 	}
 }
